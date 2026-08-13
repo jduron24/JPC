@@ -193,20 +193,28 @@ def _trial_link_html(trial_id: str | None, source_link: str | None) -> str:
     )
 
 
-def render_candidate_card(rank: int, c: Candidate) -> None:
-    if c.evidence_tier == "strong":
-        evidence_html = (
-            f'<span style="display:inline-flex;align-items:center;gap:6px;font-family:\'IBM Plex Mono\',monospace;'
-            f'font-size:11.5px;letter-spacing:0.05em;text-transform:uppercase;background:{ACCENT};color:white;'
-            f'border-radius:3px;padding:5px 9px;">Curated mechanism note</span>'
-        )
-    else:
-        evidence_html = (
-            f'<span style="display:inline-flex;align-items:center;gap:6px;font-family:\'IBM Plex Mono\',monospace;'
-            f'font-size:11.5px;letter-spacing:0.05em;text-transform:uppercase;color:{MUTED};'
-            f'border:1px dashed oklch(0.78 0.01 250);border-radius:3px;padding:5px 9px;">Target match only &middot; not yet curated</span>'
-        )
+# Visual weight per evidence tier -- solid accent for corroborated (high),
+# tinted accent for a single late-phase source (moderate), dashed muted for
+# a single early-phase or procedural/diagnostic-only source (low). The label
+# text itself (c.evidence_label) already distinguishes "low" reasons, so no
+# separate procedural tag is needed here.
+_EVIDENCE_BADGE_STYLE = {
+    "high": f"background:{ACCENT};color:white;border:1px solid {ACCENT};",
+    "moderate": f"background:{ACCENT_BG};border:1px solid {ACCENT_BORDER};color:{ACCENT_TEXT};",
+    "low": f"color:{MUTED};border:1px dashed oklch(0.78 0.01 250);",
+}
 
+
+def _evidence_badge_html(c: Candidate) -> str:
+    style = _EVIDENCE_BADGE_STYLE.get(c.evidence_tier, _EVIDENCE_BADGE_STYLE["low"])
+    return (
+        f'<span style="display:inline-flex;align-items:center;gap:6px;font-family:\'IBM Plex Mono\',monospace;'
+        f'font-size:11.5px;letter-spacing:0.05em;text-transform:uppercase;border-radius:3px;padding:5px 9px;{style}">'
+        f"{html.escape(c.evidence_label)}</span>"
+    )
+
+
+def render_candidate_card(rank: int, c: Candidate) -> None:
     st.markdown(
         f"""
         <article style="display:grid;grid-template-columns:44px minmax(0,1fr) 250px;gap:24px;background:white;border:1px solid {BORDER};border-radius:8px;padding:22px 24px;margin-bottom:12px;box-shadow:0 1px 2px oklch(0.2 0.02 250 / 0.04);">
@@ -222,7 +230,7 @@ def render_candidate_card(rank: int, c: Candidate) -> None:
             </div>
             <p style="margin:0;font-size:15px;line-height:1.5;color:{BODY_TEXT};max-width:62ch;border-left:2px solid {BORDER_SOFT};padding-left:13px;">{html.escape(c.rationale)}</p>
             <div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:{MUTED};">
-              {evidence_html}
+              {_evidence_badge_html(c)}
               {_trial_link_html(c.trial_id, c.source_link)}
             </div>
           </div>
@@ -291,7 +299,7 @@ def render_footer() -> None:
     st.markdown(
         f"""
         <div style="display:flex;flex-direction:column;gap:8px;border-top:1px solid {BORDER};padding-top:18px;margin-top:8px;font-size:13px;line-height:1.5;color:{MUTED};max-width:84ch;">
-          <span><strong style="font-weight:600;color:oklch(0.3 0.012 250);">How to read this.</strong> Shared-target candidates are an inference; a dashed &ldquo;not yet curated&rdquo; tag is the honest default there. Disease-mode results are a direct match against tracked programs, not an inference. Ranking always follows the drug's clinical stage on that indication.</span>
+          <span><strong style="font-weight:600;color:oklch(0.3 0.012 250);">How to read this.</strong> Evidence Strength reflects independent cross-drug support: a solid badge (High) means 2+ other drugs on the same target already have this indication; a tinted badge (Moderate) means one drug, but at Approved/Phase 3; a dashed badge (Low) means one early-phase source, or a procedural/diagnostic-only match. Disease-mode results are a direct match against tracked programs, not an inference. Ranking always follows the drug's clinical stage on that indication.</span>
           <span>Trial data via ClinicalTrials.gov. Cached snapshot for demo purposes &mdash; not clinical advice.</span>
         </div>
         """,

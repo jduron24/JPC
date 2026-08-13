@@ -3,8 +3,13 @@
     "drug": "Brenipatide",
     "target": "GLP-1R",
     "original_indication": "Type 2 Diabetes",
-    "known_new_indications": ["Depression", "Addiction"],
-    "notes": "UNVERIFIED — flagged 2026-08-13, could not confirm this compound/trials independently. Fact-check via clinicaltrials.gov or Lilly's pipeline before using as the anchor demo case."
+    "known_new_indications": [
+      "Major Depressive Disorder",
+      "Alcohol Dependence",
+      "Opioid Use Disorder",
+      "Schizophrenia"
+    ],
+    "notes": "Verified 2026-08-13 directly against live Convoke Program Tracker data (real GIPR/GLP-1R dual agonist, real Phase 2/3 trials with NCT ids for each indication listed -- see data/raw/program_tracker_drugs_p2.json). The original 'Depression'/'Addiction' names here didn't match Convoke's actual indication strings, which is why this case scored a MISS before -- not a data problem."
   },
   {
     "drug": "Semaglutide",
