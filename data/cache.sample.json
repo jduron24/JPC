@@ -34,5 +34,8 @@
         "link": "https://example.com/catalyst/semaglutide-depression"
       }
     ]
+  },
+  "target_mechanisms": {
+    "GLP-1R": "GLP-1R agonism modulates dopaminergic reward-pathway signaling in addition to metabolic control, evidenced by GLP-1 agonist neuroprotection/reward-circuit studies (e.g. exenatide in Parkinson's disease trials)."
   }
 }

@@ -32,6 +32,8 @@ else:
                 "Phase": c.phase,
                 "Source Drug": c.source_drug,
                 "Shared Target": c.shared_target,
+                "Evidence": c.evidence_tier.title(),
+                "Trial ID": c.trial_id or "—",
                 "Score": round(c.score, 2),
             }
             for c in candidates

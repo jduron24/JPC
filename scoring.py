@@ -23,6 +23,8 @@ EXCLUDED_STATUSES = {"discontinued", "terminated", "withdrawn"}
 RECENCY_WINDOW_DAYS = 365
 RECENCY_MAX_BONUS = 1.5
 
+TRIAL_URL_TEMPLATE = "https://clinicaltrials.gov/study/{trial_id}"
+
 
 @dataclass
 class Candidate:
@@ -33,6 +35,8 @@ class Candidate:
     phase: str
     score: float
     rationale: str
+    evidence_tier: str
+    trial_id: str | None
     source_link: str | None
 
 
@@ -72,12 +76,29 @@ def score_candidate(phase: str, indication: str, catalyst_events: list[dict]) ->
 
 
 def generate_rationale(
-    query_drug: str, shared_target: str, source_drug: str, indication: str, phase: str
-) -> str:
-    return (
+    query_drug: str,
+    shared_target: str,
+    source_drug: str,
+    indication: str,
+    phase: str,
+    mechanism_note: str | None = None,
+) -> tuple[str, str]:
+    """Returns (rationale, evidence_tier). Tier is "strong" only when a curated
+    mechanism_note backs the shared target — never inferred from phase/score alone,
+    since that would overstate mechanistic confidence we don't actually have."""
+    if mechanism_note:
+        rationale = (
+            f"{source_drug} and {query_drug} both act on {shared_target}. {mechanism_note} "
+            f"{source_drug}'s Phase {phase} activity in {indication} suggests a "
+            f"mechanistically grounded repurposing opportunity for {query_drug}."
+        )
+        return rationale, "strong"
+
+    rationale = (
         f"{source_drug} shares target {shared_target} with {query_drug}, "
         f"active in {phase} for {indication}."
     )
+    return rationale, "moderate"
 
 
 def get_candidates(query_drug: str, cache: dict, top_k: int = 10) -> list[Candidate]:
@@ -93,9 +114,12 @@ def get_candidates(query_drug: str, cache: dict, top_k: int = 10) -> list[Candid
             if drug != query_drug:
                 shared_target_by_source.setdefault(drug, target)
 
+    target_mechanisms = cache.get("target_mechanisms", {})
+
     candidates = []
     for source_drug, shared_target in shared_target_by_source.items():
         catalyst_events = cache.get("catalyst_events", {}).get(source_drug, [])
+        mechanism_note = target_mechanisms.get(shared_target)
         for entry in cache.get("drug_indications", {}).get(source_drug, []):
             indication = entry["indication"]
             phase = entry["phase"]
@@ -104,6 +128,7 @@ def get_candidates(query_drug: str, cache: dict, top_k: int = 10) -> list[Candid
             if _is_excluded_status(entry.get("status", "active")):
                 continue
 
+            trial_id = entry.get("trial_id")
             link = next(
                 (
                     event["link"]
@@ -111,6 +136,11 @@ def get_candidates(query_drug: str, cache: dict, top_k: int = 10) -> list[Candid
                     if event.get("indication", "").lower() == indication.lower()
                 ),
                 None,
+            )
+            if link is None and trial_id:
+                link = TRIAL_URL_TEMPLATE.format(trial_id=trial_id)
+            rationale, evidence_tier = generate_rationale(
+                query_drug, shared_target, source_drug, indication, phase, mechanism_note
             )
             candidates.append(
                 Candidate(
@@ -120,9 +150,9 @@ def get_candidates(query_drug: str, cache: dict, top_k: int = 10) -> list[Candid
                     indication=indication,
                     phase=phase,
                     score=score_candidate(phase, indication, catalyst_events),
-                    rationale=generate_rationale(
-                        query_drug, shared_target, source_drug, indication, phase
-                    ),
+                    rationale=rationale,
+                    evidence_tier=evidence_tier,
+                    trial_id=trial_id,
                     source_link=link,
                 )
             )
