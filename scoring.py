@@ -101,7 +101,7 @@ def generate_rationale(
     return rationale, "moderate"
 
 
-def get_candidates(query_drug: str, cache: dict, top_k: int = 10) -> list[Candidate]:
+def get_candidates(query_drug: str, cache: dict, top_k: int | None = 10) -> list[Candidate]:
     targets = cache.get("drug_targets", {}).get(query_drug, [])
     original_indications = {
         entry["indication"].lower()
