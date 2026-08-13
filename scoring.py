@@ -40,6 +40,17 @@ class Candidate:
     source_link: str | None
 
 
+@dataclass
+class DrugMatch:
+    indication: str
+    drug: str
+    phase: str
+    status: str
+    score: float
+    trial_id: str | None
+    source_link: str | None
+
+
 def load_cache(path: str | Path | None = None) -> dict:
     cache_path = Path(path) if path else DEFAULT_CACHE_PATH
     if not cache_path.exists():
@@ -159,3 +170,52 @@ def get_candidates(query_drug: str, cache: dict, top_k: int | None = 10) -> list
 
     candidates.sort(key=lambda c: c.score, reverse=True)
     return candidates[:top_k]
+
+
+def list_indications(cache: dict) -> list[str]:
+    return sorted(
+        {
+            entry["indication"]
+            for entries in cache.get("drug_indications", {}).values()
+            for entry in entries
+        }
+    )
+
+
+def get_drugs_for_indication(indication: str, cache: dict, top_k: int | None = 10) -> list[DrugMatch]:
+    matches = []
+    for drug, entries in cache.get("drug_indications", {}).items():
+        catalyst_events = cache.get("catalyst_events", {}).get(drug, [])
+        for entry in entries:
+            if entry["indication"].lower() != indication.lower():
+                continue
+            status = entry.get("status", "active")
+            if _is_excluded_status(status):
+                continue
+
+            trial_id = entry.get("trial_id")
+            link = next(
+                (
+                    event["link"]
+                    for event in catalyst_events
+                    if event.get("indication", "").lower() == indication.lower()
+                ),
+                None,
+            )
+            if link is None and trial_id:
+                link = TRIAL_URL_TEMPLATE.format(trial_id=trial_id)
+
+            matches.append(
+                DrugMatch(
+                    indication=entry["indication"],
+                    drug=drug,
+                    phase=entry["phase"],
+                    status=status,
+                    score=score_candidate(entry["phase"], indication, catalyst_events),
+                    trial_id=trial_id,
+                    source_link=link,
+                )
+            )
+
+    matches.sort(key=lambda m: m.score, reverse=True)
+    return matches[:top_k]
