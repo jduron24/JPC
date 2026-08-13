@@ -25,6 +25,21 @@ CURATED_DRUGS = {
     "LY3437943": "Retatrutide",
     "Sildenafil": "Sildenafil",
     "Minoxidil": "Minoxidil",
+    "Bremelanotide": "Bremelanotide",
+    "Octreotide": "Octreotide",
+}
+
+# Bremelanotide/Octreotide were added to ground_truth.json as extra validation
+# cases but never had their own drug-specific pull or target-sharing pool.
+# Convoke tags Bremelanotide's own target generically as "MCR" (not "MC4R"
+# specifically) and Octreotide's as {SSTR2, SSTR3, SSTR5} -- both correct per
+# real pharmacology (PT-141 is a known MC3R/MC4R agonist; octreotide is a
+# broad-spectrum somatostatin analog). We normalize to the single target each
+# was queried under (MC4R / SSTR2) so they bucket with their real candidate
+# pools instead of sitting in a target key nothing else uses.
+TARGET_OVERRIDES = {
+    "Bremelanotide": ["MC4R"],
+    "Octreotide": ["SSTR2"],
 }
 
 STATUS_MAP = {
@@ -78,7 +93,7 @@ def build_curated(drug_items: list[dict]) -> tuple[dict, dict]:
         canonical = CURATED_DRUGS.get(item["drug_name"])
         if canonical is None:
             continue
-        drug_targets.setdefault(canonical, item["targets"])
+        drug_targets.setdefault(canonical, TARGET_OVERRIDES.get(canonical, item["targets"]))
         drug_indications.setdefault(canonical, []).append(build_indication_entry(item))
     return drug_targets, drug_indications
 
@@ -102,9 +117,15 @@ def add_pool_indications(drug_indications: dict[str, list[dict]], pool_items: li
 
 
 def build_cache() -> dict:
-    drug_items = load_items("program_tracker_drugs_p1.json") + load_items("program_tracker_drugs_p2.json")
+    drug_items = (
+        load_items("program_tracker_drugs_p1.json")
+        + load_items("program_tracker_drugs_p2.json")
+        + load_items("program_tracker_drugs_bremelanotide_octreotide.json")
+    )
     glp1_gipr_gcgr_pool = load_items("program_tracker_targets_glp1_gipr_gcgr.json")
     pde5_pool = load_items("program_tracker_targets_pde5.json")
+    mc4r_pool = load_items("program_tracker_targets_mc4r.json")
+    sstr2_pool = load_items("program_tracker_targets_sstr2.json")
 
     drug_targets, drug_indications = build_curated(drug_items)
 
@@ -115,6 +136,8 @@ def build_cache() -> dict:
     # target for multi-target source drugs.
     add_pool_to_target_drugs(target_drugs, glp1_gipr_gcgr_pool, ["GLP-1R", "GIPR", "GCGR"])
     add_pool_to_target_drugs(target_drugs, pde5_pool, ["PDE5"])
+    add_pool_to_target_drugs(target_drugs, mc4r_pool, ["MC4R"])
+    add_pool_to_target_drugs(target_drugs, sstr2_pool, ["SSTR2"])
 
     # Curated drugs' own real targets are precise (unlike the ambiguous pool above),
     # so make sure they're bucketed correctly even if a drug is missing from its pool.
@@ -126,6 +149,8 @@ def build_cache() -> dict:
 
     add_pool_indications(drug_indications, glp1_gipr_gcgr_pool)
     add_pool_indications(drug_indications, pde5_pool)
+    add_pool_indications(drug_indications, mc4r_pool)
+    add_pool_indications(drug_indications, sstr2_pool)
 
     # Minoxidil's AR target query returned unrelated prostate-cancer drugs -- a
     # knowledge-graph tagging artifact, not real shared biology with minoxidil's

@@ -27,6 +27,12 @@
     "Brenipatide": [
       "GIPR",
       "GLP-1R"
+    ],
+    "Bremelanotide": [
+      "MC4R"
+    ],
+    "Octreotide": [
+      "SSTR2"
     ]
   },
   "target_drugs": {
@@ -88,6 +94,29 @@
       "SLX-2101",
       "TOP-N53",
       "Sildenafil"
+    ],
+    "MC4R": [
+      "Afamelanotide",
+      "Setmelanotide",
+      "PL9643",
+      "Bivamelagon",
+      "LB54640",
+      "LIB-01",
+      "TCMCB07",
+      "Mifomelatide",
+      "Bremelanotide"
+    ],
+    "SSTR2": [
+      "Dotatate",
+      "Lanreotide",
+      "Paltusotine",
+      "Pasireotide",
+      "Lutetium (177LU) Oxodotreotide",
+      "225AC-DOTATATE",
+      "Debio 4126",
+      "SYHX2008",
+      "ZT-01",
+      "Octreotide"
     ],
     "AR": [
       "Minoxidil"
@@ -683,6 +712,110 @@
         "trial_id": "NCT07476118"
       }
     ],
+    "Bremelanotide": [
+      {
+        "indication": "Hypoactive Sexual Desire Disorder",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT04943068"
+      },
+      {
+        "indication": "Obesity",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT06565611"
+      },
+      {
+        "indication": "Female Sexual Arousal Disorder (FSAD)",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT01382719"
+      },
+      {
+        "indication": "Diabetic Nephropathy",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT05709444"
+      }
+    ],
+    "Octreotide": [
+      {
+        "indication": "Neuroendocrine Tumors",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT03972488"
+      },
+      {
+        "indication": "Vasoactive Intestinal Peptide Tumors",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Acromegaly",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT04125836"
+      },
+      {
+        "indication": "Hepatocellular Carcinoma",
+        "phase": "Phase 3",
+        "status": "withdrawn",
+        "trial_id": "NCT00241020"
+      },
+      {
+        "indication": "Diabetic Retinopathy",
+        "phase": "Phase 3",
+        "status": "discontinued",
+        "trial_id": "NCT00170742"
+      },
+      {
+        "indication": "Thymoma",
+        "phase": "Phase 2",
+        "status": "withdrawn",
+        "trial_id": "NCT00332969"
+      },
+      {
+        "indication": "Intestinal Obstruction",
+        "phase": "Phase 2",
+        "status": "withdrawn",
+        "trial_id": "NCT00332696"
+      },
+      {
+        "indication": "Seroma",
+        "phase": "Phase 2",
+        "status": "withdrawn",
+        "trial_id": "NCT02668588"
+      },
+      {
+        "indication": "Primary Serous Peritoneal Carcinoma",
+        "phase": "Phase 2",
+        "status": "withdrawn",
+        "trial_id": "NCT00332696"
+      },
+      {
+        "indication": "Lymphatic Leakage",
+        "phase": "Phase 2",
+        "status": "withdrawn",
+        "trial_id": "NCT01754285"
+      },
+      {
+        "indication": "Carcinoid Syndrome",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT00884715"
+      },
+      {
+        "indication": "Irritable Bowel Syndrome",
+        "phase": "Phase 1",
+        "status": "withdrawn",
+        "trial_id": "NCT00584298"
+      },
+      {
+        "indication": "Clinically Relevant Postoperative Pancreatic Fistula",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      }
+    ],
     "Albiglutide": [
       {
         "indication": "Type 2 Diabetes Mellitus",
@@ -1036,6 +1169,337 @@
         "phase": "Phase 2",
         "status": "active",
         "trial_id": "NCT06954597"
+      }
+    ],
+    "Afamelanotide": [
+      {
+        "indication": "Erythropoietic Protoporphyria (EPP)",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06388642"
+      },
+      {
+        "indication": "Vitiligo",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06109649"
+      }
+    ],
+    "Setmelanotide": [
+      {
+        "indication": "Proprotein Convertase Subtilisin/Kexin Type 1 (PCSK1) Deficiency Obesity",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT02896192"
+      },
+      {
+        "indication": "Leptin Receptor Deficiency",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Bardet-Biedl Syndrome",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT05194124"
+      },
+      {
+        "indication": "Obesity",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06596135"
+      },
+      {
+        "indication": "Pituitary Stalk Interruption Syndrome",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06760546"
+      },
+      {
+        "indication": "Alstr\u00f6m Syndrome",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT03746522"
+      },
+      {
+        "indication": "Proopiomelanocortin Deficiency",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05194124"
+      },
+      {
+        "indication": "Septo-Optic Dysplasia",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06760546"
+      },
+      {
+        "indication": "Multiple Pituitary Hormone Deficiency",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06760546"
+      },
+      {
+        "indication": "Ischemic Optic Neuropathy",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06760546"
+      },
+      {
+        "indication": "Childhood-Onset Combined Pituitary Hormone Deficiency",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06760546"
+      },
+      {
+        "indication": "Prader-Willi Syndrome",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT06772597"
+      },
+      {
+        "indication": "Familial Partial Lipodystrophy",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT03262610"
+      },
+      {
+        "indication": "Hypertriglyceridemia",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT03262610"
+      },
+      {
+        "indication": "Overweight",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT02041195"
+      }
+    ],
+    "PL9643": [
+      {
+        "indication": "Dry Eye Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05201170"
+      }
+    ],
+    "Bivamelagon": [
+      {
+        "indication": "Obesity",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT07156578"
+      }
+    ],
+    "LB54640": [
+      {
+        "indication": "Obesity",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT06046443"
+      }
+    ],
+    "LIB-01": [
+      {
+        "indication": "Erectile Dysfunction",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT06703840"
+      }
+    ],
+    "TCMCB07": [
+      {
+        "indication": "Cancer Weight Loss",
+        "phase": "Phase 2",
+        "status": "active"
+      }
+    ],
+    "Mifomelatide": [
+      {
+        "indication": "Cachexia",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT06937177"
+      }
+    ],
+    "Dotatate": [
+      {
+        "indication": "Neuroendocrine Tumors",
+        "phase": "Approved",
+        "status": "active"
+      }
+    ],
+    "Lanreotide": [
+      {
+        "indication": "Carcinoid Tumor",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT04852679"
+      },
+      {
+        "indication": "Acromegaly",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT02396953"
+      },
+      {
+        "indication": "Neuroendocrine Tumors",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT00842348"
+      },
+      {
+        "indication": "Carcinoid Syndrome",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT00774930"
+      },
+      {
+        "indication": "Pancreatic Neuroendocrine Tumor",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT02651987"
+      }
+    ],
+    "Paltusotine": [
+      {
+        "indication": "Acromegaly",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT04261712"
+      },
+      {
+        "indication": "Carcinoid Syndrome",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07087054"
+      },
+      {
+        "indication": "Neuroendocrine Tumors",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07087054"
+      }
+    ],
+    "Pasireotide": [
+      {
+        "indication": "Endogenous Cushing's Syndrome",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT01582061"
+      },
+      {
+        "indication": "Cushing's Disease",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT00171951"
+      },
+      {
+        "indication": "Acromegaly",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT02354508"
+      },
+      {
+        "indication": "Neuroendocrine Tumors",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06784752"
+      },
+      {
+        "indication": "Carcinoid Tumor",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT00446082"
+      },
+      {
+        "indication": "Postbariatric Hypoglycemia",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT05928390"
+      }
+    ],
+    "Lutetium (177LU) Oxodotreotide": [
+      {
+        "indication": "Neuroendocrine Tumors",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06784752"
+      },
+      {
+        "indication": "Carcinoid Tumor",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07057622"
+      },
+      {
+        "indication": "Pancreatic Neuroendocrine Tumor",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT03049189"
+      },
+      {
+        "indication": "Pheochromocytoma",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT04711135"
+      },
+      {
+        "indication": "Paraganglioma",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT04711135"
+      }
+    ],
+    "225AC-DOTATATE": [
+      {
+        "indication": "Carcinoid Tumor",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05477576"
+      },
+      {
+        "indication": "Neuroendocrine Tumors",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05477576"
+      }
+    ],
+    "Debio 4126": [
+      {
+        "indication": "Acromegaly",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06930625"
+      }
+    ],
+    "SYHX2008": [
+      {
+        "indication": "Acromegaly",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07623824"
+      },
+      {
+        "indication": "Neuroendocrine Tumors",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07165886"
+      },
+      {
+        "indication": "Pancreatic Neuroendocrine Tumor",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT06505395"
+      }
+    ],
+    "ZT-01": [
+      {
+        "indication": "Type 1 Diabetes Mellitus",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT05762107"
       }
     ]
   }
