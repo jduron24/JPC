@@ -17,6 +17,28 @@ All drug/target/indication/trial data is pulled live from **Convoke's biopharma 
 
 Raw pulls live in `data/raw/`; `data/build_cache.py` reshapes them into `data/cache.json`, the lookup-map structure `scoring.py` reads from (`drug_targets`, `target_drugs`, `drug_indications`).
 
+## Architecture
+
+```mermaid
+flowchart LR
+    MCP["Convoke MCP Server<br/>query_program_tracker"]
+    RAW["data/raw/*.json<br/>(raw API pulls)"]
+    BUILD["data/build_cache.py"]
+    CACHE["data/cache.json<br/>drug_targets · target_drugs · drug_indications"]
+    SCORING["scoring.py<br/>get_candidates()<br/>filter → score → evidence tier"]
+    APP["app.py<br/>Streamlit UI"]
+    EVAL["eval.py<br/>vs ground_truth.json"]
+
+    MCP -->|live pull| RAW
+    RAW --> BUILD
+    BUILD -->|reshape to schema| CACHE
+    CACHE --> SCORING
+    SCORING --> APP
+    SCORING --> EVAL
+```
+
+Data flows one direction: live MCP pulls are cached to disk once (to stay within the API credit budget), reshaped into a lookup-map schema, and everything downstream (`scoring.py`, `app.py`, `eval.py`) reads from that cache rather than hitting the API again. Re-running `data/build_cache.py` is free — no MCP calls, just reshaping JSON already on disk.
+
 ## How it works
 
 1. **Look up the query drug's target(s)** — e.g. Semaglutide → GLP-1R.
