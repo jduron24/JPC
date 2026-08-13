@@ -1,0 +1,37 @@
+[
+  {
+    "drug": "Brenipatide",
+    "target": "GLP-1R",
+    "original_indication": "Type 2 Diabetes",
+    "known_new_indications": ["Depression", "Addiction"],
+    "notes": "UNVERIFIED — flagged 2026-08-13, could not confirm this compound/trials independently. Fact-check via clinicaltrials.gov or Lilly's pipeline before using as the anchor demo case."
+  },
+  {
+    "drug": "Semaglutide",
+    "target": "GLP-1R",
+    "original_indication": "Type 2 Diabetes",
+    "known_new_indications": ["Obesity", "Cardiovascular Risk Reduction"],
+    "notes": "Ozempic to Wegovy to SELECT trial MACE risk reduction. Well documented."
+  },
+  {
+    "drug": "Exenatide",
+    "target": "GLP-1R",
+    "original_indication": "Type 2 Diabetes",
+    "known_new_indications": ["Parkinson's Disease"],
+    "notes": "GLP-1R agonism shown to have neuroprotective/dopaminergic effects in preclinical and clinical PD studies (Byetta to PD neuroprotection trials)."
+  },
+  {
+    "drug": "Bremelanotide",
+    "target": "MC4R",
+    "original_indication": "Sunless Tanning (Melanotan II lineage)",
+    "known_new_indications": ["Hypoactive Sexual Desire Disorder"],
+    "notes": "PT-141 to Vyleesi. Off-target arousal effects observed in tanning trials led to MC4R's role in sexual arousal pathways being explored directly."
+  },
+  {
+    "drug": "Octreotide",
+    "target": "SSTR2",
+    "original_indication": "Acromegaly",
+    "known_new_indications": ["Carcinoid Syndrome", "Variceal Bleeding", "Refractory Diarrhea"],
+    "notes": "Somatostatin receptor agonism suppresses multiple hormone/secretory axes beyond growth hormone."
+  }
+]

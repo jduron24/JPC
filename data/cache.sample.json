@@ -1,0 +1,41 @@
+{
+  "_meta": {
+    "note": "SAMPLE DATA for local dev only — not sourced from Convoke MCP. Replace by placing a real data/cache.json (see SCHEMA.md) next to this file; load_cache() prefers it automatically."
+  },
+  "drug_targets": {
+    "Brenipatide": ["GLP-1R"],
+    "Semaglutide": ["GLP-1R"],
+    "Liraglutide": ["GLP-1R"]
+  },
+  "target_drugs": {
+    "GLP-1R": ["Brenipatide", "Semaglutide", "Liraglutide"]
+  },
+  "drug_indications": {
+    "Brenipatide": [
+      { "indication": "Type 2 Diabetes", "phase": "Approved", "status": "active" }
+    ],
+    "Semaglutide": [
+      { "indication": "Type 2 Diabetes", "phase": "Approved", "status": "active" },
+      { "indication": "Obesity", "phase": "Approved", "status": "active" },
+      { "indication": "Depression", "phase": "Phase 2", "status": "active" },
+      { "indication": "Addiction", "phase": "Phase 1", "status": "active" }
+    ],
+    "Liraglutide": [
+      { "indication": "Type 2 Diabetes", "phase": "Approved", "status": "active" },
+      { "indication": "NASH", "phase": "Phase 2", "status": "discontinued" }
+    ]
+  },
+  "catalyst_events": {
+    "Semaglutide": [
+      {
+        "date": "2026-05-01",
+        "event": "Phase 2 topline results",
+        "indication": "Depression",
+        "link": "https://example.com/catalyst/semaglutide-depression"
+      }
+    ]
+  },
+  "target_mechanisms": {
+    "GLP-1R": "GLP-1R agonism modulates dopaminergic reward-pathway signaling in addition to metabolic control, evidenced by GLP-1 agonist neuroprotection/reward-circuit studies (e.g. exenatide in Parkinson's disease trials)."
+  }
+}

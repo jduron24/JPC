@@ -1,0 +1,1042 @@
+{
+  "drug_targets": {
+    "Dulaglutide": [
+      "GLP-1R"
+    ],
+    "Retatrutide": [
+      "GCGR",
+      "GIPR",
+      "GLP-1R"
+    ],
+    "Liraglutide": [
+      "GLP-1R"
+    ],
+    "Minoxidil": [
+      "AR"
+    ],
+    "Semaglutide": [
+      "GLP-1R"
+    ],
+    "Sildenafil": [
+      "PDE5"
+    ],
+    "Tirzepatide": [
+      "GIPR",
+      "GLP-1R"
+    ],
+    "Brenipatide": [
+      "GIPR",
+      "GLP-1R"
+    ]
+  },
+  "target_drugs": {
+    "GLP-1R": [
+      "Albiglutide",
+      "Dasiglucagon",
+      "Dulaglutide",
+      "Exenatide",
+      "Glucagon",
+      "LY3437943",
+      "Liraglutide",
+      "Lixisenatide",
+      "Orforglipron",
+      "Orforglipron Calcium",
+      "Semaglutide",
+      "Retatrutide",
+      "Tirzepatide",
+      "Brenipatide"
+    ],
+    "GIPR": [
+      "Albiglutide",
+      "Dasiglucagon",
+      "Dulaglutide",
+      "Exenatide",
+      "Glucagon",
+      "LY3437943",
+      "Liraglutide",
+      "Lixisenatide",
+      "Orforglipron",
+      "Orforglipron Calcium",
+      "Semaglutide",
+      "Retatrutide",
+      "Tirzepatide",
+      "Brenipatide"
+    ],
+    "GCGR": [
+      "Albiglutide",
+      "Dasiglucagon",
+      "Dulaglutide",
+      "Exenatide",
+      "Glucagon",
+      "LY3437943",
+      "Liraglutide",
+      "Lixisenatide",
+      "Orforglipron",
+      "Orforglipron Calcium",
+      "Semaglutide",
+      "Retatrutide"
+    ],
+    "PDE5": [
+      "Avanafil",
+      "Tadalafil",
+      "VARDENAFIL HYDROCHLORIDE",
+      "Vardenafil",
+      "AR1001",
+      "Macitentan And Tadalafil",
+      "TPN171H",
+      "Udenafil",
+      "SLX-2101",
+      "TOP-N53",
+      "Sildenafil"
+    ],
+    "AR": [
+      "Minoxidil"
+    ]
+  },
+  "drug_indications": {
+    "Dulaglutide": [
+      {
+        "indication": "Cardiovascular Events",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Type 2 Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06739122"
+      },
+      {
+        "indication": "Cardiovascular Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT01394952"
+      },
+      {
+        "indication": "Type 1 Diabetes Mellitus",
+        "phase": "Phase 2",
+        "status": "withdrawn"
+      },
+      {
+        "indication": "Poor Glycemic Control",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      },
+      {
+        "indication": "Healthy Volunteers",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      }
+    ],
+    "Retatrutide": [
+      {
+        "indication": "Type 2 Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06982859"
+      },
+      {
+        "indication": "Overweight",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07467447"
+      },
+      {
+        "indication": "Atherosclerosis",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06383390"
+      },
+      {
+        "indication": "Cardiovascular Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05882045"
+      },
+      {
+        "indication": "Osteoarthritis",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05929066"
+      },
+      {
+        "indication": "Obstructive Sleep Apnea",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05929079"
+      },
+      {
+        "indication": "Chronic Low Back Pain",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07035093"
+      },
+      {
+        "indication": "Obesity",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06383390"
+      },
+      {
+        "indication": "Chronic Kidney Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06383390"
+      },
+      {
+        "indication": "Nonalcoholic Steatohepatitis (NASH)",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07165028"
+      }
+    ],
+    "Liraglutide": [
+      {
+        "indication": "Obesity",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT07225816"
+      },
+      {
+        "indication": "Type 2 Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT05268237"
+      },
+      {
+        "indication": "Prader-Willi Syndrome",
+        "phase": "Phase 3",
+        "status": "withdrawn",
+        "trial_id": "NCT02527200"
+      },
+      {
+        "indication": "Overweight",
+        "phase": "Phase 3",
+        "status": "withdrawn",
+        "trial_id": "NCT02870231"
+      },
+      {
+        "indication": "Obstructive Sleep Apnea",
+        "phase": "Phase 3",
+        "status": "withdrawn",
+        "trial_id": "NCT01557166"
+      },
+      {
+        "indication": "Type 1 Diabetes Mellitus",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT02443155"
+      },
+      {
+        "indication": "Osteoarthritis",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT07225829"
+      },
+      {
+        "indication": "Synovitis",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT07225829"
+      },
+      {
+        "indication": "Myocardial Infarction",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      },
+      {
+        "indication": "Cardiovascular Events",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      },
+      {
+        "indication": "Alzheimer's Disease",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      },
+      {
+        "indication": "Glycemic Control",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      }
+    ],
+    "Minoxidil": [
+      {
+        "indication": "Tinea Capitis",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Alopecia",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Hypertension",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Androgenetic Alopecia",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT07303322"
+      },
+      {
+        "indication": "Alopecia Areata",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Damaged Hair",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Hair Regrowth On The Top Of The Scalp",
+        "phase": "Approved",
+        "status": "active"
+      }
+    ],
+    "Semaglutide": [
+      {
+        "indication": "Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT04187300"
+      },
+      {
+        "indication": "Type 2 Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT04822181"
+      },
+      {
+        "indication": "Chronic Kidney Disease",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06131372"
+      },
+      {
+        "indication": "Obesity",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT07253285"
+      },
+      {
+        "indication": "Alzheimer's Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT04777396"
+      },
+      {
+        "indication": "Critical Limb Ischemia",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT04560998"
+      },
+      {
+        "indication": "Heart Failure With Preserved Ejection Fraction (HFpEF)",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT04788511"
+      },
+      {
+        "indication": "Nonalcoholic Steatohepatitis (NASH)",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT04822181"
+      },
+      {
+        "indication": "Prediabetes",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06648031"
+      },
+      {
+        "indication": "Osteoarthritis",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05064735"
+      },
+      {
+        "indication": "Diabetic Retinopathy",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT03811561"
+      },
+      {
+        "indication": "Atherosclerosis",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05669755"
+      },
+      {
+        "indication": "Overweight",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07253285"
+      },
+      {
+        "indication": "Cardiovascular Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT03574597"
+      },
+      {
+        "indication": "Heart Failure",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT04916470"
+      },
+      {
+        "indication": "Liver Cirrhosis",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT04971785"
+      },
+      {
+        "indication": "Alcohol-Associated Liver Disease (ALD)",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT06409130"
+      },
+      {
+        "indication": "Type 1 Diabetes Mellitus",
+        "phase": "Phase 1",
+        "status": "active",
+        "trial_id": "NCT07087795"
+      },
+      {
+        "indication": "Hypercholesterolemia",
+        "phase": "Phase 1",
+        "status": "active",
+        "trial_id": "NCT05129891"
+      },
+      {
+        "indication": "Hepatobiliary Disorders",
+        "phase": "Phase 1",
+        "status": "active",
+        "trial_id": "NCT03357380"
+      },
+      {
+        "indication": "Pharmacokinetics",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      },
+      {
+        "indication": "End Stage Renal Disease",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      },
+      {
+        "indication": "Glycemic Control",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      },
+      {
+        "indication": "Cardiovascular Events",
+        "phase": "Preclinical",
+        "status": "withdrawn"
+      },
+      {
+        "indication": "Healthy Volunteers",
+        "phase": "Preclinical",
+        "status": "active"
+      }
+    ],
+    "Sildenafil": [
+      {
+        "indication": "Pulmonary Arterial Hypertension",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT01244620"
+      },
+      {
+        "indication": "Pulmonary Hypertension",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT01913847"
+      },
+      {
+        "indication": "Persistent Pulmonary Hypertension Of The Newborn",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT01720524"
+      },
+      {
+        "indication": "Connective Tissue Disease",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Erectile Dysfunction",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT07290400"
+      },
+      {
+        "indication": "Heart Failure With Reduced Ejection Fraction (HFrEF)",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT01913847"
+      },
+      {
+        "indication": "Acute Respiratory Failure",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT01720524"
+      },
+      {
+        "indication": "Premature Ejaculation",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT02571101"
+      },
+      {
+        "indication": "Sexual Dysfunctions, Psychological",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT00746967"
+      },
+      {
+        "indication": "Female Sexual Arousal Disorder (FSAD)",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT04948151"
+      },
+      {
+        "indication": "Female Sexual Health",
+        "phase": "Phase 1",
+        "status": "active",
+        "trial_id": "NCT02364882"
+      },
+      {
+        "indication": "Overactive Bladder",
+        "phase": "Phase 1",
+        "status": "active",
+        "trial_id": "NCT00814736"
+      },
+      {
+        "indication": "Benign Prostatic Hyperplasia",
+        "phase": "Phase 1",
+        "status": "active",
+        "trial_id": "NCT00814736"
+      },
+      {
+        "indication": "Healthy Volunteers",
+        "phase": "Preclinical",
+        "status": "active"
+      }
+    ],
+    "Tirzepatide": [
+      {
+        "indication": "Obesity",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06937099"
+      },
+      {
+        "indication": "Type 2 Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT07299084"
+      },
+      {
+        "indication": "Obstructive Sleep Apnea",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT05412004"
+      },
+      {
+        "indication": "Heart Failure With Preserved Ejection Fraction (HFpEF)",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT04847557"
+      },
+      {
+        "indication": "Psoriatic Arthritis",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06588296"
+      },
+      {
+        "indication": "Overweight",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06962280"
+      },
+      {
+        "indication": "Psoriasis",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06588283"
+      },
+      {
+        "indication": "Prediabetes",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT04844918"
+      },
+      {
+        "indication": "Crohn's Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06937099"
+      },
+      {
+        "indication": "Nonalcoholic Steatohepatitis (NASH)",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07165028"
+      },
+      {
+        "indication": "Type 1 Diabetes Mellitus",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06962280"
+      },
+      {
+        "indication": "Mixed Dyslipidemia",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT04844918"
+      },
+      {
+        "indication": "Weight Gain",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06439277"
+      },
+      {
+        "indication": "Metabolism And Nutrition Disorder",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05024032"
+      },
+      {
+        "indication": "Chronic Kidney Disease",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT05536804"
+      },
+      {
+        "indication": "Healthy Volunteers",
+        "phase": "Phase 1",
+        "status": "active",
+        "trial_id": "NCT06890611"
+      }
+    ],
+    "Brenipatide": [
+      {
+        "indication": "Major Depressive Disorder",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07412756"
+      },
+      {
+        "indication": "Alcohol Dependence",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07219953"
+      },
+      {
+        "indication": "Cigarette Smoking",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT07223840"
+      },
+      {
+        "indication": "Schizophrenia",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT07410507"
+      },
+      {
+        "indication": "Opioid Use Disorder",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT07420283"
+      },
+      {
+        "indication": "Bipolar I Disorder",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT07286175"
+      },
+      {
+        "indication": "Asthma",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT07219173"
+      },
+      {
+        "indication": "Irritable Bowel Syndrome",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT07545759"
+      },
+      {
+        "indication": "Obesity",
+        "phase": "Phase 1",
+        "status": "active",
+        "trial_id": "NCT07476118"
+      }
+    ],
+    "Albiglutide": [
+      {
+        "indication": "Type 2 Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT03015519"
+      }
+    ],
+    "Dasiglucagon": [
+      {
+        "indication": "Hypoglycemia",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06588504"
+      },
+      {
+        "indication": "Congenital Hyperinsulinism",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT03941236"
+      },
+      {
+        "indication": "Type 1 Diabetes Mellitus",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05378672"
+      }
+    ],
+    "Exenatide": [
+      {
+        "indication": "Obesity",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT04269642"
+      },
+      {
+        "indication": "Type 2 Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT04269642"
+      },
+      {
+        "indication": "Diabetes Mellitus",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT02229383"
+      },
+      {
+        "indication": "Type 1 Diabetes Mellitus",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT00064714"
+      },
+      {
+        "indication": "Parkinson's Disease",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT04269642"
+      }
+    ],
+    "Glucagon": [
+      {
+        "indication": "Hypoglycemia",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT03490942"
+      },
+      {
+        "indication": "Diagnostic Aid In The Radiologic Examination Of The Stomach, Duodenum, Small Bowel, And Colon",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Type 1 Diabetes Mellitus",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT04712266"
+      },
+      {
+        "indication": "Congenital Hyperinsulinism",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT03841526"
+      }
+    ],
+    "LY3437943": [
+      {
+        "indication": "Type 2 Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06982859"
+      },
+      {
+        "indication": "Chronic Kidney Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06383390"
+      },
+      {
+        "indication": "Osteoarthritis",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05929066"
+      },
+      {
+        "indication": "Obstructive Sleep Apnea",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05929079"
+      },
+      {
+        "indication": "Nonalcoholic Steatohepatitis (NASH)",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07165028"
+      },
+      {
+        "indication": "Chronic Low Back Pain",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07035093"
+      },
+      {
+        "indication": "Cardiovascular Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05882045"
+      },
+      {
+        "indication": "Overweight",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07467447"
+      },
+      {
+        "indication": "Obesity",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06383390"
+      },
+      {
+        "indication": "Atherosclerosis",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06383390"
+      }
+    ],
+    "Lixisenatide": [
+      {
+        "indication": "Type 2 Diabetes Mellitus",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT02803918"
+      }
+    ],
+    "Orforglipron": [
+      {
+        "indication": "Overweight",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06649045"
+      },
+      {
+        "indication": "Obesity",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT07153471"
+      },
+      {
+        "indication": "Hypertension",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06952530"
+      },
+      {
+        "indication": "Obstructive Sleep Apnea",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06649045"
+      },
+      {
+        "indication": "Critical Limb Ischemia",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07223593"
+      },
+      {
+        "indication": "Stress Urinary Incontinence",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07202884"
+      },
+      {
+        "indication": "Osteoarthritis",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07153471"
+      },
+      {
+        "indication": "Chronic Kidney Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07241390"
+      },
+      {
+        "indication": "Atherosclerosis",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07241390"
+      },
+      {
+        "indication": "Type 2 Diabetes Mellitus",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT07668336"
+      }
+    ],
+    "Orforglipron Calcium": [
+      {
+        "indication": "Obesity",
+        "phase": "Approved",
+        "status": "active"
+      }
+    ],
+    "Avanafil": [
+      {
+        "indication": "Erectile Dysfunction",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT02503306"
+      }
+    ],
+    "Tadalafil": [
+      {
+        "indication": "ED And The Signs And Symptoms Of BPH (ED/BPH)",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Pulmonary Hypertension",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT02688387"
+      },
+      {
+        "indication": "Idiopathic Or Heritable PAH",
+        "phase": "Approved",
+        "status": "active"
+      },
+      {
+        "indication": "Erectile Dysfunction",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT06805513"
+      },
+      {
+        "indication": "Benign Prostatic Hyperplasia",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT02839122"
+      },
+      {
+        "indication": "Pulmonary Arterial Hypertension",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT01824290"
+      },
+      {
+        "indication": "Hypertension",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT02194465"
+      }
+    ],
+    "VARDENAFIL HYDROCHLORIDE": [
+      {
+        "indication": "Erectile Dysfunction",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "ChiCTR2500108995"
+      }
+    ],
+    "Vardenafil": [
+      {
+        "indication": "Erectile Dysfunction",
+        "phase": "Approved",
+        "status": "active",
+        "trial_id": "NCT01168817"
+      },
+      {
+        "indication": "Pulmonary Arterial Hypertension",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT04266197"
+      }
+    ],
+    "AR1001": [
+      {
+        "indication": "Alzheimer's Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05531526"
+      }
+    ],
+    "Macitentan And Tadalafil": [
+      {
+        "indication": "Pulmonary Hypertension",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05179876"
+      },
+      {
+        "indication": "Pulmonary Arterial Hypertension",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05179876"
+      }
+    ],
+    "TPN171H": [
+      {
+        "indication": "Erectile Dysfunction",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT06301854"
+      }
+    ],
+    "Udenafil": [
+      {
+        "indication": "Congenital Heart Disease",
+        "phase": "Phase 3",
+        "status": "active",
+        "trial_id": "NCT05918211"
+      }
+    ],
+    "SLX-2101": [
+      {
+        "indication": "Hypertension",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT07142356"
+      }
+    ],
+    "TOP-N53": [
+      {
+        "indication": "Systemic Sclerosis",
+        "phase": "Phase 2",
+        "status": "active",
+        "trial_id": "NCT06954597"
+      }
+    ]
+  }
+}
