@@ -1,0 +1,9 @@
+[
+  {
+    "drug": "Brenipatide",
+    "target": "GLP-1R",
+    "original_indication": "Type 2 Diabetes",
+    "known_new_indications": ["Depression", "Addiction"],
+    "notes": "Real GLP-1R repurposing expansion case."
+  }
+]
