@@ -1,0 +1,2886 @@
+{
+  "generated_from": [
+    "data/raw/program_tracker_drugs_p1.json",
+    "data/raw/program_tracker_drugs_p2.json",
+    "data/raw/program_tracker_targets_glp1_gipr_gcgr.json",
+    "data/raw/program_tracker_targets_pde5.json"
+  ],
+  "drugs": [
+    {
+      "drug": "Brenipatide",
+      "targets": [
+        "GIPR",
+        "GLP-1R"
+      ],
+      "current_indications": [
+        {
+          "indication": "Major Depressive Disorder",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Alcohol Dependence",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Cigarette Smoking",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Schizophrenia",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Opioid Use Disorder",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Bipolar I Disorder",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Asthma",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Irritable Bowel Syndrome",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Obesity",
+          "phase": "Phase 1",
+          "status": "Active"
+        },
+        {
+          "indication": "Obesity",
+          "phase": "Phase 1",
+          "status": "Active"
+        },
+        {
+          "indication": "End Stage Renal Disease",
+          "phase": "Phase 1",
+          "status": "Active"
+        },
+        {
+          "indication": "Overweight",
+          "phase": "Phase 1",
+          "status": "Active"
+        },
+        {
+          "indication": "Renal Impairment",
+          "phase": "Phase 1",
+          "status": "Active"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_drug": "Albiglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "GlaxoSmithKline",
+          "trial_ids": [
+            "NCT03015519",
+            "NCT02229227",
+            "NCT02683746",
+            "NCT02660736"
+          ]
+        },
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT06588504",
+            "NCT05378672",
+            "NCT04824872",
+            "NCT03895697"
+          ]
+        },
+        {
+          "candidate_drug": "Dulaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Wockhardt, Enzene Biosciences, HEC, Eli Lilly",
+          "trial_ids": [
+            "NCT06739122",
+            "NCT07313813",
+            "NCT05377333",
+            "NCT04809220"
+          ]
+        },
+        {
+          "candidate_drug": "Dulaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Cardiovascular Events",
+          "phase": "Regulatory Approval",
+          "organization": "Wockhardt, Enzene Biosciences, HEC, Eli Lilly",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT04269642",
+            "NCT04001231",
+            "NCT01554618",
+            "NCT00658021"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03490942",
+            "NCT03421379",
+            "NCT03439072",
+            "NCT03339453"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Diagnostic Aid In The Radiologic Examination Of The Stomach, Duodenum, Small Bowel, And Colon",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT06982859",
+            "NCT06297603",
+            "NCT06260722",
+            "NCT05929079"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT05268237",
+            "NCT06559722",
+            "NCT06439056",
+            "NCT04373967"
+          ]
+        },
+        {
+          "candidate_drug": "Lixisenatide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Sanofi",
+          "trial_ids": [
+            "NCT02803918",
+            "NCT02274740",
+            "NCT01940965",
+            "NCT01632163"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Chronic Kidney Disease",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06131372",
+            "NCT04865770",
+            "NCT03819153"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04187300",
+            "NCT02557620",
+            "NCT02064348",
+            "NCT02249871"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04822181",
+            "NCT07527195",
+            "NCT07563699",
+            "NCT03811561"
+          ]
+        },
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT03941236",
+            "NCT04172441",
+            "NCT03777176"
+          ]
+        },
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT05378672",
+            "NCT05454709",
+            "NCT03688711",
+            "NCT03378635"
+          ]
+        },
+        {
+          "candidate_drug": "Dulaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "organization": "Wockhardt, Enzene Biosciences, HEC, Eli Lilly",
+          "trial_ids": [
+            "NCT01394952"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT02229383",
+            "NCT02229396",
+            "NCT01156779",
+            "NCT01297062"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT04712266",
+            "NCT03841526",
+            "NCT03439072",
+            "NCT03339453"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Chronic Kidney Disease",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT06383390",
+            "NCT05936151"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT05929066",
+            "NCT05931367"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Obstructive Sleep Apnea",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT05929079",
+            "NCT05929066"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Nonalcoholic Steatohepatitis (NASH)",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT07165028"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Chronic Low Back Pain",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT07035093"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT05882045"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT06383390"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT02443155",
+            "NCT01836523",
+            "NCT02098395",
+            "NCT01206101"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Hypertension",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT06952530",
+            "NCT06948435",
+            "NCT06948422"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Obstructive Sleep Apnea",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT06649045"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07223593"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Stress Urinary Incontinence",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07202884"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07153471"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Chronic Kidney Disease",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07241390"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07241390"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 2 Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07668336",
+            "NCT06972472",
+            "NCT06993792",
+            "NCT07613307"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Nonalcoholic Steatohepatitis (NASH)",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04822181",
+            "NCT05016882",
+            "NCT04971785",
+            "NCT03987451"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Diabetic Retinopathy",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT03811561"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT05669755",
+            "NCT04032197"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Alzheimer's Disease",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04777396",
+            "NCT04777409",
+            "NCT05891496"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT05064735"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04560998"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT03574597",
+            "NCT04032197"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Heart Failure",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04916470"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Prediabetes",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06648031",
+            "NCT05040971"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Heart Failure With Preserved Ejection Fraction (HFpEF)",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04788511"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 2",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT00064714"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Parkinson's Disease",
+          "phase": "Phase 2",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT04269642"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 2",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03841526",
+            "NCT03770637",
+            "NCT02937558"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 2",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT07225829"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Synovitis",
+          "phase": "Phase 2",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT07225829"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Liver Cirrhosis",
+          "phase": "Phase 2",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04971785",
+            "NCT03987451"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Alcohol-Associated Liver Disease (ALD)",
+          "phase": "Phase 2",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06409130"
+          ]
+        }
+      ],
+      "candidate_pool_note": null
+    },
+    {
+      "drug": "Semaglutide",
+      "targets": [
+        "GLP-1R"
+      ],
+      "current_indications": [
+        {
+          "indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Chronic Kidney Disease",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Obesity",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Alzheimer's Disease",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Heart Failure With Preserved Ejection Fraction (HFpEF)",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Nonalcoholic Steatohepatitis (NASH)",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Prediabetes",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Diabetic Retinopathy",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Overweight",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Heart Failure",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Liver Cirrhosis",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Alcohol-Associated Liver Disease (ALD)",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 1",
+          "status": "Active"
+        },
+        {
+          "indication": "Hypercholesterolemia",
+          "phase": "Phase 1",
+          "status": "Active"
+        },
+        {
+          "indication": "Hepatobiliary Disorders",
+          "phase": "Phase 1",
+          "status": "Active"
+        },
+        {
+          "indication": "Pharmacokinetics",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "End Stage Renal Disease",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Glycemic Control",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Cardiovascular Events",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Healthy Volunteers",
+          "phase": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "indication": "Type 2 Diabetes Mellitus",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Obesity",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Obesity",
+          "phase": "Phase 1",
+          "status": "Active"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT06588504",
+            "NCT05378672",
+            "NCT04824872",
+            "NCT03895697"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03490942",
+            "NCT03421379",
+            "NCT03439072",
+            "NCT03339453"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diagnostic Aid In The Radiologic Examination Of The Stomach, Duodenum, Small Bowel, And Colon",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT03941236",
+            "NCT04172441",
+            "NCT03777176"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Obstructive Sleep Apnea",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT05929079",
+            "NCT05929066"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Chronic Low Back Pain",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT07035093"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Hypertension",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT06952530",
+            "NCT06948435",
+            "NCT06948422"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Obstructive Sleep Apnea",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT06649045"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Stress Urinary Incontinence",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07202884"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Parkinson's Disease",
+          "phase": "Phase 2",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT04269642"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 2",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03841526",
+            "NCT03770637",
+            "NCT02937558"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Synovitis",
+          "phase": "Phase 2",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT07225829"
+          ]
+        }
+      ],
+      "candidate_pool_note": null
+    },
+    {
+      "drug": "Tirzepatide",
+      "targets": [
+        "GIPR",
+        "GLP-1R"
+      ],
+      "current_indications": [
+        {
+          "indication": "Obesity",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Obstructive Sleep Apnea",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Heart Failure With Preserved Ejection Fraction (HFpEF)",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Psoriatic Arthritis",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Overweight",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Psoriasis",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Prediabetes",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Crohn's Disease",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Nonalcoholic Steatohepatitis (NASH)",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Mixed Dyslipidemia",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Weight Gain",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Metabolism And Nutrition Disorder",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Chronic Kidney Disease",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Healthy Volunteers",
+          "phase": "Phase 1",
+          "status": "Active"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT06588504",
+            "NCT05378672",
+            "NCT04824872",
+            "NCT03895697"
+          ]
+        },
+        {
+          "candidate_drug": "Dulaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Cardiovascular Events",
+          "phase": "Regulatory Approval",
+          "organization": "Wockhardt, Enzene Biosciences, HEC, Eli Lilly",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03490942",
+            "NCT03421379",
+            "NCT03439072",
+            "NCT03339453"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Diagnostic Aid In The Radiologic Examination Of The Stomach, Duodenum, Small Bowel, And Colon",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04187300",
+            "NCT02557620",
+            "NCT02064348",
+            "NCT02249871"
+          ]
+        },
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT03941236",
+            "NCT04172441",
+            "NCT03777176"
+          ]
+        },
+        {
+          "candidate_drug": "Dulaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "organization": "Wockhardt, Enzene Biosciences, HEC, Eli Lilly",
+          "trial_ids": [
+            "NCT01394952"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT02229383",
+            "NCT02229396",
+            "NCT01156779",
+            "NCT01297062"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT05929066",
+            "NCT05931367"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Chronic Low Back Pain",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT07035093"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT05882045"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT06383390"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Hypertension",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT06952530",
+            "NCT06948435",
+            "NCT06948422"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07223593"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Stress Urinary Incontinence",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07202884"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07153471"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07241390"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Diabetic Retinopathy",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT03811561"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT05669755",
+            "NCT04032197"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Alzheimer's Disease",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04777396",
+            "NCT04777409",
+            "NCT05891496"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT05064735"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04560998"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT03574597",
+            "NCT04032197"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Heart Failure",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04916470"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Parkinson's Disease",
+          "phase": "Phase 2",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT04269642"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 2",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03841526",
+            "NCT03770637",
+            "NCT02937558"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 2",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT07225829"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Synovitis",
+          "phase": "Phase 2",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT07225829"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Liver Cirrhosis",
+          "phase": "Phase 2",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04971785",
+            "NCT03987451"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GIPR, GLP-1R",
+          "candidate_indication": "Alcohol-Associated Liver Disease (ALD)",
+          "phase": "Phase 2",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06409130"
+          ]
+        }
+      ],
+      "candidate_pool_note": null
+    },
+    {
+      "drug": "Liraglutide",
+      "targets": [
+        "GLP-1R"
+      ],
+      "current_indications": [
+        {
+          "indication": "Obesity",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Prader-Willi Syndrome",
+          "phase": "Phase 3",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Overweight",
+          "phase": "Phase 3",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Obstructive Sleep Apnea",
+          "phase": "Phase 3",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Osteoarthritis",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Synovitis",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Myocardial Infarction",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Cardiovascular Events",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Alzheimer's Disease",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Glycemic Control",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT06588504",
+            "NCT05378672",
+            "NCT04824872",
+            "NCT03895697"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03490942",
+            "NCT03421379",
+            "NCT03439072",
+            "NCT03339453"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diagnostic Aid In The Radiologic Examination Of The Stomach, Duodenum, Small Bowel, And Colon",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Chronic Kidney Disease",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06131372",
+            "NCT04865770",
+            "NCT03819153"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04187300",
+            "NCT02557620",
+            "NCT02064348",
+            "NCT02249871"
+          ]
+        },
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT03941236",
+            "NCT04172441",
+            "NCT03777176"
+          ]
+        },
+        {
+          "candidate_drug": "Dulaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "organization": "Wockhardt, Enzene Biosciences, HEC, Eli Lilly",
+          "trial_ids": [
+            "NCT01394952"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT02229383",
+            "NCT02229396",
+            "NCT01156779",
+            "NCT01297062"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Chronic Kidney Disease",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT06383390",
+            "NCT05936151"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Nonalcoholic Steatohepatitis (NASH)",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT07165028"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Chronic Low Back Pain",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT07035093"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT05882045"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT06383390"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Hypertension",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT06952530",
+            "NCT06948435",
+            "NCT06948422"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07223593"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Stress Urinary Incontinence",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07202884"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Chronic Kidney Disease",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07241390"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07241390"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Nonalcoholic Steatohepatitis (NASH)",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04822181",
+            "NCT05016882",
+            "NCT04971785",
+            "NCT03987451"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diabetic Retinopathy",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT03811561"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT05669755",
+            "NCT04032197"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04560998"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT03574597",
+            "NCT04032197"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Heart Failure",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04916470"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Prediabetes",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06648031",
+            "NCT05040971"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Heart Failure With Preserved Ejection Fraction (HFpEF)",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04788511"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Parkinson's Disease",
+          "phase": "Phase 2",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT04269642"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 2",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03841526",
+            "NCT03770637",
+            "NCT02937558"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Liver Cirrhosis",
+          "phase": "Phase 2",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04971785",
+            "NCT03987451"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Alcohol-Associated Liver Disease (ALD)",
+          "phase": "Phase 2",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06409130"
+          ]
+        }
+      ],
+      "candidate_pool_note": null
+    },
+    {
+      "drug": "Dulaglutide",
+      "targets": [
+        "GLP-1R"
+      ],
+      "current_indications": [
+        {
+          "indication": "Cardiovascular Events",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 2",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Poor Glycemic Control",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Healthy Volunteers",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT06588504",
+            "NCT05378672",
+            "NCT04824872",
+            "NCT03895697"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Obesity",
+          "phase": "Regulatory Approval",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT04269642",
+            "NCT00500370"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03490942",
+            "NCT03421379",
+            "NCT03439072",
+            "NCT03339453"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diagnostic Aid In The Radiologic Examination Of The Stomach, Duodenum, Small Bowel, And Colon",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Obesity",
+          "phase": "Regulatory Approval",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT07225816",
+            "NCT04775082",
+            "NCT02527200",
+            "NCT02918279"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Overweight",
+          "phase": "Regulatory Approval",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT06649045",
+            "NCT06824051",
+            "NCT05872620",
+            "NCT05869903"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Obesity",
+          "phase": "Regulatory Approval",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07153471",
+            "NCT06672939",
+            "NCT06948435",
+            "NCT06972472"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron Calcium",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Obesity",
+          "phase": "Regulatory Approval",
+          "organization": null,
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Obesity",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT07253285",
+            "NCT06780449",
+            "NCT07010432",
+            "NCT07527195"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Chronic Kidney Disease",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06131372",
+            "NCT04865770",
+            "NCT03819153"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04187300",
+            "NCT02557620",
+            "NCT02064348",
+            "NCT02249871"
+          ]
+        },
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT03941236",
+            "NCT04172441",
+            "NCT03777176"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT02229383",
+            "NCT02229396",
+            "NCT01156779",
+            "NCT01297062"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Chronic Kidney Disease",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT06383390",
+            "NCT05936151"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT05929066",
+            "NCT05931367"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Obstructive Sleep Apnea",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT05929079",
+            "NCT05929066"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Nonalcoholic Steatohepatitis (NASH)",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT07165028"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Chronic Low Back Pain",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT07035093"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Overweight",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT07467447",
+            "NCT05931367",
+            "NCT06039826",
+            "NCT05548231"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Obesity",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT06383390",
+            "NCT07357415",
+            "NCT06859268",
+            "NCT07035093"
+          ]
+        },
+        {
+          "candidate_drug": "LY3437943",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Eli Lilly",
+          "trial_ids": [
+            "NCT06383390"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Hypertension",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT06952530",
+            "NCT06948435",
+            "NCT06948422"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Obstructive Sleep Apnea",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT06649045"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07223593"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Stress Urinary Incontinence",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07202884"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07153471"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Chronic Kidney Disease",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07241390"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07241390"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Nonalcoholic Steatohepatitis (NASH)",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04822181",
+            "NCT05016882",
+            "NCT04971785",
+            "NCT03987451"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Diabetic Retinopathy",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT03811561"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT05669755",
+            "NCT04032197"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Alzheimer's Disease",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04777396",
+            "NCT04777409",
+            "NCT05891496"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT05064735"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Overweight",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT07253285",
+            "NCT07357766",
+            "NCT07465965",
+            "NCT07172867"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04560998"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Heart Failure",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04916470"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Prediabetes",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06648031",
+            "NCT05040971"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Heart Failure With Preserved Ejection Fraction (HFpEF)",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04788511"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Parkinson's Disease",
+          "phase": "Phase 2",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT04269642"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 2",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03841526",
+            "NCT03770637",
+            "NCT02937558"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Osteoarthritis",
+          "phase": "Phase 2",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT07225829"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Synovitis",
+          "phase": "Phase 2",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT07225829"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Liver Cirrhosis",
+          "phase": "Phase 2",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04971785",
+            "NCT03987451"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GLP-1R",
+          "candidate_indication": "Alcohol-Associated Liver Disease (ALD)",
+          "phase": "Phase 2",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06409130"
+          ]
+        }
+      ],
+      "candidate_pool_note": null
+    },
+    {
+      "drug": "Retatrutide",
+      "targets": [
+        "GCGR",
+        "GIPR",
+        "GLP-1R"
+      ],
+      "current_indications": [
+        {
+          "indication": "Type 2 Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Overweight",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Atherosclerosis",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Cardiovascular Disease",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Osteoarthritis",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Obstructive Sleep Apnea",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Chronic Low Back Pain",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Obesity",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Chronic Kidney Disease",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Nonalcoholic Steatohepatitis (NASH)",
+          "phase": "Phase 3",
+          "status": "Active"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT06588504",
+            "NCT05378672",
+            "NCT04824872",
+            "NCT03895697"
+          ]
+        },
+        {
+          "candidate_drug": "Dulaglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Cardiovascular Events",
+          "phase": "Regulatory Approval",
+          "organization": "Wockhardt, Enzene Biosciences, HEC, Eli Lilly",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Hypoglycemia",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03490942",
+            "NCT03421379",
+            "NCT03439072",
+            "NCT03339453"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Diagnostic Aid In The Radiologic Examination Of The Stomach, Duodenum, Small Bowel, And Colon",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Regulatory Approval",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04187300",
+            "NCT02557620",
+            "NCT02064348",
+            "NCT02249871"
+          ]
+        },
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT03941236",
+            "NCT04172441",
+            "NCT03777176"
+          ]
+        },
+        {
+          "candidate_drug": "Dasiglucagon",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Zealand Pharma",
+          "trial_ids": [
+            "NCT05378672",
+            "NCT05454709",
+            "NCT03688711",
+            "NCT03378635"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT02229383",
+            "NCT02229396",
+            "NCT01156779",
+            "NCT01297062"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT04712266",
+            "NCT03841526",
+            "NCT03439072",
+            "NCT03339453"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 3",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT02443155",
+            "NCT01836523",
+            "NCT02098395",
+            "NCT01206101"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Hypertension",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT06952530",
+            "NCT06948435",
+            "NCT06948422"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07223593"
+          ]
+        },
+        {
+          "candidate_drug": "Orforglipron",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Stress Urinary Incontinence",
+          "phase": "Phase 3",
+          "organization": "Chugai Pharma, Eli Lilly",
+          "trial_ids": [
+            "NCT07202884"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Diabetic Retinopathy",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT03811561"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Alzheimer's Disease",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04777396",
+            "NCT04777409",
+            "NCT05891496"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Critical Limb Ischemia",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04560998"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Heart Failure",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04916470"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Prediabetes",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06648031",
+            "NCT05040971"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Heart Failure With Preserved Ejection Fraction (HFpEF)",
+          "phase": "Phase 3",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04788511"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Type 1 Diabetes Mellitus",
+          "phase": "Phase 2",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT00064714"
+          ]
+        },
+        {
+          "candidate_drug": "Exenatide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Parkinson's Disease",
+          "phase": "Phase 2",
+          "organization": "Amylin Pharmaceuticals, Nutriband, AstraZeneca, BioID Genomics",
+          "trial_ids": [
+            "NCT04269642"
+          ]
+        },
+        {
+          "candidate_drug": "Glucagon",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Congenital Hyperinsulinism",
+          "phase": "Phase 2",
+          "organization": "Xeris Biopharma, Gylden Pharma, Xeris Pharmaceuticals, Amphastar Pharmaceuticals",
+          "trial_ids": [
+            "NCT03841526",
+            "NCT03770637",
+            "NCT02937558"
+          ]
+        },
+        {
+          "candidate_drug": "Liraglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Synovitis",
+          "phase": "Phase 2",
+          "organization": "Ambio Inc., 4MOVING Biotech, Tonghua Dongbao Pharmaceutical, Wockhardt",
+          "trial_ids": [
+            "NCT07225829"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Liver Cirrhosis",
+          "phase": "Phase 2",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT04971785",
+            "NCT03987451"
+          ]
+        },
+        {
+          "candidate_drug": "Semaglutide",
+          "shared_target": "GCGR, GIPR, GLP-1R",
+          "candidate_indication": "Alcohol-Associated Liver Disease (ALD)",
+          "phase": "Phase 2",
+          "organization": "Novo Nordisk, Mapi Pharma, Iconovo, Wockhardt",
+          "trial_ids": [
+            "NCT06409130"
+          ]
+        }
+      ],
+      "candidate_pool_note": null
+    },
+    {
+      "drug": "Sildenafil",
+      "targets": [
+        "PDE5"
+      ],
+      "current_indications": [
+        {
+          "indication": "Pulmonary Arterial Hypertension",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Pulmonary Hypertension",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Persistent Pulmonary Hypertension Of The Newborn",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Connective Tissue Disease",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Erectile Dysfunction",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Heart Failure With Reduced Ejection Fraction (HFrEF)",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Acute Respiratory Failure",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Premature Ejaculation",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Sexual Dysfunctions, Psychological",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Female Sexual Arousal Disorder (FSAD)",
+          "phase": "Phase 2",
+          "status": "Active"
+        },
+        {
+          "indication": "Female Sexual Health",
+          "phase": "Phase 1",
+          "status": "Active"
+        },
+        {
+          "indication": "Overactive Bladder",
+          "phase": "Phase 1",
+          "status": "Active"
+        },
+        {
+          "indication": "Benign Prostatic Hyperplasia",
+          "phase": "Phase 1",
+          "status": "Active"
+        },
+        {
+          "indication": "Healthy Volunteers",
+          "phase": "Unspecified",
+          "status": "Active"
+        },
+        {
+          "indication": "Erectile Dysfunction",
+          "phase": "Phase 3",
+          "status": "Active"
+        },
+        {
+          "indication": "Pulmonary Hypertension",
+          "phase": "Phase 3",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Pulmonary Arterial Hypertension",
+          "phase": "Phase 3",
+          "status": "Probable Inactive"
+        },
+        {
+          "indication": "Pre-Eclampsia",
+          "phase": "Phase 2",
+          "status": "Discontinued"
+        },
+        {
+          "indication": "Healthy Volunteers",
+          "phase": "Unspecified",
+          "status": "Probable Inactive"
+        }
+      ],
+      "candidates": [
+        {
+          "candidate_drug": "Tadalafil",
+          "shared_target": "PDE5",
+          "candidate_indication": "ED And The Signs And Symptoms Of BPH (ED/BPH)",
+          "phase": "Regulatory Approval",
+          "organization": "Veru, Eli Lilly, ICOS Corporation",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "Tadalafil",
+          "shared_target": "PDE5",
+          "candidate_indication": "Idiopathic Or Heritable PAH",
+          "phase": "Regulatory Approval",
+          "organization": "Veru, Eli Lilly, ICOS Corporation",
+          "trial_ids": []
+        },
+        {
+          "candidate_drug": "AR1001",
+          "shared_target": "PDE5",
+          "candidate_indication": "Alzheimer's Disease",
+          "phase": "Phase 3",
+          "organization": "AriBio, Apcer Life Sciences",
+          "trial_ids": [
+            "NCT05531526",
+            "NCT03625622"
+          ]
+        },
+        {
+          "candidate_drug": "Udenafil",
+          "shared_target": "PDE5",
+          "candidate_indication": "Congenital Heart Disease",
+          "phase": "Phase 3",
+          "organization": "Warner Chilcott (US), Inc., Dong-A Pharmaceutical, Mezzion Pharmaceuticals, Dong-A PharmTech Co., Ltd.",
+          "trial_ids": [
+            "NCT05918211",
+            "NCT03430583"
+          ]
+        },
+        {
+          "candidate_drug": "Tadalafil",
+          "shared_target": "PDE5",
+          "candidate_indication": "Hypertension",
+          "phase": "Phase 2",
+          "organization": "Veru, Eli Lilly, ICOS Corporation",
+          "trial_ids": [
+            "NCT02194465",
+            "NCT00157326"
+          ]
+        },
+        {
+          "candidate_drug": "SLX-2101",
+          "shared_target": "PDE5",
+          "candidate_indication": "Hypertension",
+          "phase": "Phase 2",
+          "organization": "Retension Pharmaceuticals",
+          "trial_ids": [
+            "NCT07142356",
+            "NCT00562549",
+            "NCT00562614"
+          ]
+        },
+        {
+          "candidate_drug": "TOP-N53",
+          "shared_target": "PDE5",
+          "candidate_indication": "Systemic Sclerosis",
+          "phase": "Phase 2",
+          "organization": "Topadur Pharma",
+          "trial_ids": [
+            "NCT06954597"
+          ]
+        }
+      ],
+      "candidate_pool_note": null
+    },
+    {
+      "drug": "Minoxidil",
+      "targets": [
+        "AR"
+      ],
+      "current_indications": [
+        {
+          "indication": "Tinea Capitis",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Alopecia",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Hypertension",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Androgenetic Alopecia",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Alopecia Areata",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Damaged Hair",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Hair Regrowth On The Top Of The Scalp",
+          "phase": "Regulatory Approval",
+          "status": "Active"
+        },
+        {
+          "indication": "Androgenetic Alopecia",
+          "phase": "Phase 3",
+          "status": "Active"
+        }
+      ],
+      "candidates": [],
+      "candidate_pool_note": "No shared-target candidate pool pulled for target(s) ['AR'] this round (skipped for credit budget / data-quality reasons -- see build_cache.py)."
+    }
+  ]
+}
